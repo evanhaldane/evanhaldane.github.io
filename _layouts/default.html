@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+  <body>
+
+    <header>
+      <div class="top-bar">
+        <div class="outer-box">
+          <div class="title-text">
+            {{ site.title }}
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container content">
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="/projects/">Projects</a>
+          </li>
+          <li>/
+          </li>
+          <li>
+            <a href="/about/">About</a>
+          </li>
+          <li>/
+          </li>
+          <li>
+            <a href="/">Posts</a>
+          </li>
+        </ul>
+      </div>
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+        </small>
+      </footer>
+    </div>
+
+  </body>
+</html>

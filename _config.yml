@@ -1,0 +1,13 @@
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Evan Haldane
+url:              http://evanhaldane.github.io
+paginate:         1
+baseurl:          /
+author:
+  name:           Evan Haldane
+  url:            https://twitter.com/evanhaldane
+  email:          evanhaldane@gmail.com
