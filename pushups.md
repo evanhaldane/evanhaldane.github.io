@@ -3,7 +3,9 @@ layout: default
 title: Pushups
 ---
 
-After a suggestion from a friend, I set the goal of 10,000 pushups in 2015. I have been tracking my progress via a Google Sheet. Thanks to [Tabletop.js](https://github.com/jsoma/tabletop), I can retrieve the contents of my Google Sheet (as JSON) completely in Javascript. The result is then plotted (again, completely in Javascript) using [Bokeh.js](http://bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html), which I found out about at [2015 PyCon](https://us.pycon.org/2015/) (H/T: [Sarah Bird](http://www.sarahbird.org/))
+After a suggestion from a friend, I wanted to see how many pushups I could do in a year (2015). Predictably, I got sick in May and the plan fizzled out. Regardless, I tracked my progress using a Google Sheet. Thanks to [Tabletop.js](https://github.com/jsoma/tabletop), I can retrieve the contents of my Google Sheet (as JSON) in Javascript. The result is then plotted (again, completely in Javascript) using [Bokeh.js](http://bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html), which I found out about at [2015 PyCon](https://us.pycon.org/2015/) (H/T: [Sarah Bird](http://www.sarahbird.org/))
+
+
 
   <head>
     <meta charset="utf-8">
@@ -52,7 +54,7 @@ After a suggestion from a friend, I set the goal of 10,000 pushups in 2015. I ha
 		  title: 'Total Pushups in 2015',
 		  plot_width: plotWidth,
 		  plot_height: plotHeight,
-		  x_range: [Math.min.apply(null, date), Date.now()],
+		  x_range: [Math.min.apply(null, date), Math.max.apply(null, date)],
 		  y_range: [0, Math.max.apply(null, cumulative)+50]
 		}
 
