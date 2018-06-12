@@ -9,10 +9,10 @@ After a suggestion from a friend, I wanted to see how many pushups I could do in
 
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.3.5/tabletop.js"></script>
-    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.js"></script>
-    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.css">
+    <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.css">
   </head>
   <body>
   
