@@ -4,8 +4,7 @@ permalink:        pretty
 # Setup
 title:            Evan Haldane
 url:              http://evanhaldane.github.io
-paginate:         1
-baseurl:          /
+paginate:         2
 author:
   name:           Evan Haldane
   url:            https://twitter.com/evanhaldane
