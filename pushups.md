@@ -3,16 +3,16 @@ layout: default
 title: Pushups
 ---
 
-After a suggestion from a friend, I wanted to see how many pushups I could do in a year (2015). Predictably, I got sick in May and the plan fizzled out. Regardless, I tracked my progress using a Google Sheet. Thanks to [Tabletop.js](https://github.com/jsoma/tabletop), I can retrieve the contents of my Google Sheet (as JSON) in Javascript. The result is then plotted (again, completely in Javascript) using [Bokeh.js](http://bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html), which I found out about at [2015 PyCon](https://us.pycon.org/2015/) (H/T: [Sarah Bird](http://www.sarahbird.org/))
+After a suggestion from a friend, I wanted to see how many pushups I could do in a year. Predictably, I got sick in May and the plan fizzled out. Regardless, I tracked my progress using a Google Sheet. Thanks to [Tabletop.js](https://github.com/jsoma/tabletop), I can retrieve the contents of my Google Sheet (as JSON) in Javascript. The result is then plotted (again, completely in Javascript) using [Bokeh.js](http://bokeh.pydata.org/en/latest/docs/dev_guide/bokehjs.html), which I found out about at [PyCon](https://us.pycon.org/2015/) (H/T: [Sarah Bird](http://www.sarahbird.org/))
 
 
 
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.3.5/tabletop.js"></script>
-    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.js"></script>
-    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.css">
+    <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.8.0.min.css">
   </head>
   <body>
   
@@ -51,7 +51,7 @@ After a suggestion from a friend, I wanted to see how many pushups I could do in
 		var plotWidth = jQuery("main").width();
 		var plotHeight = Math.ceil(plotWidth*0.6);
 		options = {
-		  title: 'Total Pushups in 2015',
+		  title: 'Total Pushups',
 		  plot_width: plotWidth,
 		  plot_height: plotHeight,
 		  x_range: [Math.min.apply(null, date), Math.max.apply(null, date)],

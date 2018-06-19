@@ -4,7 +4,7 @@ title: About
 ---
 
 ### Professional
-I'm a mathemtician / data scientist / programmer. I like asking questions. Recently, I've become even more interested in answering them. I've worked at [Invenia](https://invenia.ca) using machine learning to forecast prices and usage in electricity markets and at [SeatGeek](https://seatgeek.com) analyzing effectiveness of  marketing campaigns and UX decisions. I previously did my graduate work in spectral theory under [Dmitry Jakobson](http://www.math.mcgill.ca/jakobson/) at [McGill University](http://www.mcgill.ca/).
+I'm a mathematician / data scientist / programmer. I like asking questions. Recently, I've become even more interested in answering them. I've worked at [Invenia](https://invenia.ca) using machine learning to forecast prices and usage in electricity markets and at [SeatGeek](https://seatgeek.com) analyzing effectiveness of  marketing campaigns and UX decisions. I previously did my graduate work in spectral theory under [Dmitry Jakobson](http://www.math.mcgill.ca/jakobson/) at [McGill University](http://www.mcgill.ca/).
 
 ### Personal
 
