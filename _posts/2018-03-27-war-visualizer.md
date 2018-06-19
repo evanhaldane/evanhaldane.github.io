@@ -6,4 +6,5 @@ What happens to baseball players whose career WARs have followed a certain traje
 
 Available here: 
 [Demo](/war-visualizer/)
+
 [Repo](https://github.com/evanhaldane/phamness)
