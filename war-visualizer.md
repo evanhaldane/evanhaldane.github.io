@@ -191,7 +191,7 @@ What happens to baseball players whose career WARs have followed a certain traje
     document.addEventListener("DOMContentLoaded", function(){
             // Handler when the DOM is fully loaded
 
-            d3.csv("seasons.csv", function(data){
+            d3.csv("{{"/public/data/seasons.csv" | relative_url }}", function(data){
                 // create array of players indexed by playerid
             players = d3.nest()
                         .key((d)=>d.playerid)
