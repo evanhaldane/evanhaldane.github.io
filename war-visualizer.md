@@ -4,7 +4,6 @@ title:  "Career WAR visualizer"
 ---
 What happens to baseball players whose career WARs have followed a certain trajectory? Projection systems give you an expectation for the upcoming year. I made a little tool to vizualize the recent past and near future for players similar to a comparison player of your choice.
 
-
 <style>
     .baseline {
         fill: none;
@@ -53,9 +52,9 @@ What happens to baseball players whose career WARs have followed a certain traje
     </svg>
 </div>
 
-<link rel="stylesheet" href="auto-complete.css">
+<link rel="stylesheet" href="{{"/public/css/auto-complete.css" | relative_url }}">
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="auto-complete.min.js"></script>
+<script src="{{"/public/js/auto-complete.min.js" | relative_url }}"></script>
 <script type="text/javascript">
     var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 50},
